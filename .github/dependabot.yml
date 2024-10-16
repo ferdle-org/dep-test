@@ -9,14 +9,3 @@ updates:
     schedule:
       interval: daily
     open-pull-requests-limit: 25
-    groups:
-      angular-eslint-dependencies:
-        patterns:
-          - "@angular-eslint*"
-      typescript-eslint-dependencies:
-        patterns:
-          - "@typescript-eslint*"
-    groups:
-      typescript-eslint-dependencies:
-        patterns:
-          - "@typescript-eslint*"

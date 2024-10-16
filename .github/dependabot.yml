@@ -6,9 +6,6 @@
 version: 2
 updates:
   - package-ecosystem: npm
-    directory: /frontend
-    registries:
-      - npm-github
     schedule:
       interval: daily
     open-pull-requests-limit: 25

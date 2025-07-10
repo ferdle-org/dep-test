@@ -5,14 +5,13 @@
 
 version: 2
 updates:
-  - package-ecosystem: "nuget" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "nuget"
+    directory: "/"
     schedule:
       interval: "weekly"
     ignore:
       - dependency-name: "Microsoft.EntityFrameworkCore"
-        update-types: ["version-update:semver-major"]
+        update-types: ["major"]  # Ignores only major version updates (e.g., 8.x -> 9.x)
     groups:
       nuget-ecosystem:
-      patterns:
-        - "*"
+        patterns: ["*"]

@@ -12,6 +12,3 @@ updates:
     ignore:
       - dependency-name: "Microsoft.EntityFrameworkCore"
         update-types: ["version-update:semver-major"]
-    groups:
-      nuget-ecosystem:
-        patterns: ["Microsoft.*"]

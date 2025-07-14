@@ -14,5 +14,4 @@ updates:
         update-types: ["version-update:semver-major"]
     groups:
       nuget-ecosystem:
-        patterns: ["*"]
-        exclude-patterns: ["Microsoft.EntityFrameworkCore"]
+        patterns: ["Microsoft.*"]
